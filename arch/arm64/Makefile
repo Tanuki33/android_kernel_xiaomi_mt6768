@@ -105,7 +105,7 @@ else
 KBUILD_CFLAGS	+= -mgeneral-regs-only
 endif
 # Optimize for Helio G80/G85 (MT6768)
-KBUILD_CFLAGS	+= -mcpu=cortex-a75.cortex-a55
+KBUILD_CFLAGS	+= -mcpu=cortex-a75
 KBUILD_CFLAGS	+= $(lseinstr) $(brokengasinst) $(vdso32) $(cc_has_k_constraint)
 KBUILD_CFLAGS	+= -fno-asynchronous-unwind-tables
 KBUILD_CFLAGS	+= -fno-pic
